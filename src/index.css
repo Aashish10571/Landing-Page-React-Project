@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Raleway", "sans-serif";
+  --font-secondary: "Open Sans", "sans-serif";
+
+  --font-weight-bold: 700;
+  --font-weight-semibold: 400;
+
+  --text-sm: 16px;
+
+  --color-primary-intro: hsl(217, 28%, 15%);
+  --color-primary-main-bg: hsl(218, 28%, 13%);
+  --color-primary-footer-bg: hsl(216, 53%, 9%);
+  --color-primary-testomonial-bg: hsl(219, 30%, 18%);
+
+  --color-accent-cyan: hsl(176, 68%, 64%);
+  --color-accent-blue: hsl(198, 60%, 50%);
+  --color-accent-red: hsl(0, 100%, 63%);
+
+  --color-neutral-white: hsl(0, 0%, 100%);
+
+  --breakpoint-3xl: 1920px;
+}
+
+@utility flex-between {
+  @apply flex justify-between items-center
+}
